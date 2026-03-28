@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Milonga&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>Diagon Alley</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/all.css">
+
+</head>
+
+<body>
+    <!-- light and dark mode buttons -->
+
+    <input type="radio" name="theme-mode" id="light-mode" checked>
+    <input type="radio" name="theme-mode" id="dark-mode">
+    <input type="radio" name="theme-mode" id="electric-mode">
+    <input type="radio" name="theme-mode" id="knockturn-mode">
+
+    <!--1. Header - Nav bar (should be fixed to the top of the page) -->
+
+
+    <header id="navigation">
+        <!-- container of NAV for diagon -->
+        <div class="container diagon-style"> <!-- container: used as a gen style throughout page-->
+            <div class="navbar-menu">
+                <!-- branding name of website -->
+                <div class="branding">
+                    <h1><a href="#hero">Diagon Alley</a></h1>
+                    <!-- <h1>Diagon Alley</h1> -->
+                </div>
+
+                <!-- navigation bar with toggle menu -->
+                <nav>
+                    <label for="toggle">&#9776;</label>
+                    <input type="checkbox" id="toggle">
+
+                    <!-- Home, About, Shops, Gallery, Pricing, Contact -->
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#shops">Shops</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- container of NAV for knockturn -->
+        <div class="container knockturn-style"> <!-- container: used as a gen style throughout page-->
+            <div class="navbar-menu">
+                <!-- branding name of website -->
+                <div class="branding">
+                    <h1><a href="#hero">Knockturn Alley</a></h1>
+                </div>
+
+                <!-- navigation bar with toggle menu -->
+                <nav>
+                    <label for="toggle-knock">&#9776;</label>
+                    <input type="checkbox" id="toggle-knock">
+
+                    <!-- Home, About, Shops, Gallery, Pricing, Contact -->
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#shops">Shops</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--2. Showcase hero – list what you would like to showcase for this website.-->
+    <section id="hero">
+        <!-- Credit:
+            diagon alley: https://www.youtube.com/watch?v=OQL4go-P2-A 
+            knockturn alley: https://www.youtube.com/watch?v=fk6fbUFQj88
+                                https://www.youtube.com/watch?v=be8urv6g7FQ
+            -->
+
+        <!-- diagon alley -->
+        <div class="container diagon-style">
+
+            <!-- background video -->
+            <video autoplay muted loop class="background-video">
+                <source src="videos/Diagon-Alley-daytime-walkthrough.mp4" type="video/mp4"
+                    alt="video walkthrough of knockturn alley">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- video content -->
+            <div class="video-content">
+                <h1>Welcome to <span>Diagon Alley</span></h1>
+                <p>The most extraordinary wizarding shopping street in Britain</p>
+                <a href="#about">Explore the alley</a>
+            </div>
+        </div>
+
+        <!-- knockturn alley -->
+        <div class="container knockturn-style">
+            <!-- background video -->
+            <video autoplay muted loop class="background-video">
+                <source src="videos/knockturn-alley-walkthrough.mp4" type="video/mp4"
+                    alt="video walkthrough of knockturn alley">
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- video content -->
+            <div class="video-content">
+                <h1>Welcome to <span>Knockturn Alley</span></h1>
+                <p>Step into the shadowed heart of wizarding London
+                    <br>where secrets whisper through the cobblestones, and magic dares to cross the line between dark
+                    and brilliant.
+                </p>
+                <a href="#about">Explore the alley</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--3. About-->
+    <section id="about">
+        <div class="container">
+
+            <div class="about-sign">
+                <img src="images/sign-1.png" alt="sign of diagon alley" class="main-sign">
+                <img src="images/sign-2.png" alt="sign of leaky Cauldron" class="small-sign">
+                <div id="theme-knock">
+                    <label class="theme-label" for="knockturn-mode"><img src="images/sign-3.png" alt="knocturn alley"
+                            class="small-sign knockturn-sign"></label>
+                    <!-- <img src="images/sign-3.png" alt="knocturn alley"> -->
+                </div>
+                <img src="images/sign-4.png" alt="" class="small-sign">
+            </div>
+
+            <div class="about-block">
+                <h2>
+                    <span class="diagon-style">About Diagon Alley</span>
+                    <span class="knockturn-style">Knockturn Alley</span>
+                </h2>
+                <!-- container of about cards for diagon -->
+                <div class="about-content diagon-style">
+                    <p>Diagon Alley is a cobblestone street hidden behind the Leaky Cauldron in London, England, serving
+                        as the main shopping area for witches and wizards. Within its winding lanes are a variety of
+                        restaurants, shops, and magical attractions, where students can purchase everything on their
+                        Hogwarts supply lists. Shielded from the Muggle world just beyond its borders, Diagon Alley is
+                        vast and lively, making it the heart of wizarding London.</p>
+                    <p>Throughout the year, wizards and witches visit to buy supplies, but the alley becomes especially
+                        crowded in the weeks before the Hogwarts term begins. It features well-known establishments such
+                        as Gringotts Wizarding Bank, Ollivanders Wand Shop, and Weasleys Wizard Wheezes, which was
+                        foundedby Fred and George Weasley. Many of the shops have colorful umbrellas and tables outside,
+                        adding to its charm. The name “Diagon Alley” comes from the phrase “diagonally,” which explains
+                        its play on words. When Harry Potter accidentally mispronounced it, he ended up in Knockturn
+                        Alley, a darker and more dangerous neighboring street.</p>
+                </div>
+                <!-- container of about cards for knockturn -->
+                <div class="about-content knockturn-style">
+                    <p>Just around the corner from Diagon Alley lies Knockturn Alley, a narrow, twisting street where
+                        the air feels heavier and shadows linger longer. Its shops are filled with strange and often
+                        dangerous magical objects-shrunken heads, poisonous candles, and curious trinkets that most
+                        witches and wizards wouldnt dare touch. The most well-known shop, Borgin and Burkes, deals in
+                        dark artifacts with powerful properties, and the alley is often populated by witches and wizards
+                        whose intentions are harder to read. Even for seasoned visitors of Diagon Alley, Knockturn Alley
+                        has a reputation that makes most parents forbid their children from wandering down its paths.
+                    <p>Students and visitors who do find themselves here soon notice the alley's unsettling charm.
+                        Lanterns flicker in the gloom, casting eerie patterns across the cobblestones, and the narrow
+                        streets wind in unexpected directions. One misstep—like speaking the wrong destination while
+                        using Floo Powder—can land a young wizard inside a shop like Borgin and Burkes, face-to-face
+                        with items and people better left alone. Knockturn Alley is not just a shopping street; it's a
+                        place that tests courage, curiosity, and discretion, offering a darker, more dangerous side of
+                        the magical world.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--4. Shops-->
+    <section id="shops">
+        <h2>
+            <span class="diagon-style">Magical Shops</span>
+            <span class="knockturn-style">Wicked Shops</span>
+        </h2>
+        <!-- container of shop cards for diagon -->
+        <div class="container-wrap diagon-style">
+            <div class="shop-card">
+                <img src="images/shop-ollivanders-sign.png" alt="olivanders wands sign sign">
+                <h3>Ollivanders Wands</h3>
+                <p>Ollivanders is where young witches and wizards obtain their wands, crafted by a family famed for
+                    their ancient and exceptional wandmaking skills.</p>
+            </div>
+            <div class="shop-card">
+                <img src="images/shop-gringots-logo.png" alt="gringots bank sign">
+                <h3>Gringots Bank</h3>
+                <p>The safest place in the wizarding world for anything you want to keep safe, except perhaps
+                    Hogwarts.
+                </p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-wizard-wheeze.png" alt="Weasleys' Wizard Wheezes sign">
+                <h3>Weasleys' Wizard Wheezes</h3>
+                <p>The premier joke shop filled with tricks, pranks, and magical mischief founded by Fred and George
+                    Weasley.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-flourish-blotts.png" alt="Flourish and Blotts sign">
+                <h3>Flourish and Blotts</h3>
+                <p>A bookshop selling all the latest magical books, from spellbooks to textbooks required for
+                    Hogwarts
+                    students.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-quality-quidditch-supplies.png" alt="Quality Quidditch Supplies sign">
+                <h3>Quality Quidditch Supplies</h3>
+                <p>Everything a Quidditch player needs, from broomsticks to Golden Snitches and protective gear.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-eeylops-owl-emporium.png" alt="Eeylops Owl Emporium sign">
+                <h3>Eeylops Owl Emporium</h3>
+                <p>A shop specializing in owls of all breeds, the primary method of communication in the wizarding
+                    world.</p>
+            </div>
+        </div>
+
+        <!-- container of shop cards for knocturn -->
+        <div class="container-wrap knockturn-style">
+            <div class="shop-card">
+                <img src="images/shop-knock-Borgin-and-Burkes.png" alt="Borgin and Burkes sign">
+                <h3>Borgin and Burkes</h3>
+                <p>The most infamous shop, dealing in unusual and ancient magical artifacts, particularly those related
+                    to the Dark Arts.</p>
+            </div>
+            <div class="shop-card">
+                <img src="images/shop-knock-The-Coffin-House.png" alt="The Coffin House sign">
+                <h3>The Coffin House</h3>
+                <p>A store dedicated to the study of Necromancy, offering unusual materials for those who explore the
+                    mysteries of life and death.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-knock-dystyl-phaelanges.png" alt="Dystyl Phaelanges sign">
+                <h3>Dystyl Phaelanges</h3>
+                <p>A narrow shop that sells bones of all kinds, often purchased by potion-makers and collectors of rare
+                    magical ingredients.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-knock-McHavelock-Wizarding-Headgear.png"
+                    alt="McHavelock's Wizarding Headgear sign">
+                <h3>McHavelock's Wizarding Headgear</h3>
+                <p>A curious store offering bewitched hats and enchanted wigs that are said to whisper secrets from
+                    their previous owners.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-knock-Markus-Scarr-Indelible-Tattoos.png"
+                    alt="Markus Scarr's Indelible Tattoos sign">
+                <h3>Markus Scarr's Indelible Tattoos</h3>
+                <p>A tattoo parlor where every design is created with magical ink, giving each mark a lasting power or
+                    protection charm.</p>
+            </div>
+
+            <div class="shop-card">
+                <img src="images/shop-knock-cobbwebb.png" alt="Cobb & Webb's sign">
+                <h3>Cobb & Webb's</h3>
+                <p>A dark-arts supplier known for its shelves of mysterious relics and enchanted items, each carrying a
+                    history best left untold.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--5. Gallery-->
+    <section id="gallery">
+        <h2>
+            <span class="diagon-style">Gallery</span>
+            <span class="knockturn-style">Dark Arts</span>
+        </h2>
+        <!-- container of gallery cards for diagon -->
+        <div class="container-wrap diagon-style">
+
+            <div class="gallery-shop">
+                <a href="images/gallery-olivander.jpeg" target="_blank">
+                    <img src="images/gallery-olivander-small.jpeg" alt="olianders shop of wands in their boxes">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-gringots-bank.jpeg" target="_blank">
+                    <img src="images/gallery-gringots-bank-small.jpeg"
+                        alt="gringots bank with galleons, sickles and knutes currency">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-Weasleys-Wizard-Wheezes.jpeg" target="_blank">
+                    <img src="images/gallery-Weasleys-Wizard-Wheezes-small.jpeg"
+                        alt="Weasleys Wizard Wheezes shop merch poster">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-Flourish-and-Blotts.jpeg" target="_blank">
+                    <img src="images/gallery-Flourish-and-Blotts-small.jpeg"
+                        alt="advanced book of potion making from floutish and blotts shop">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-Quality-Quidditch-Supplies.jpeg" target="_blank">
+                    <img src="images/gallery-Quality-Quidditch-Supplies-small.jpeg"
+                        alt="Quidditch game equipment from Quality Quidditch Supplies shop">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-Eeylops-Owl-Emporium.jpeg" target="_blank">
+                    <img src="images/gallery-Eeylops-Owl-Emporium-small.jpeg"
+                        alt="Pet owl from the Eeylops owl Emporium shop">
+                </a>
+            </div>
+        </div>
+        <!-- container of gallery cards for knockturn -->
+        <div class="container-wrap knockturn-style">
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-borgin-and-burkes.jpeg" target="_blank">
+                    <img src="images/gallery-knock-borgin-and-burkes-small.jpeg"
+                        alt="Borin and Burkes red magical artifact">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-coffin.jpeg" target="_blank">
+                    <img src="images/gallery-knock-coffin-small.jpeg" alt="the coffin shop Necromancy">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-Dystyl-Phaelanges.jpeg" target="_blank">
+                    <img src="images/gallery-knock-Dystyl-Phaelanges-small.jpeg"
+                        alt="gDystyl Phaelanges bone from shop.jpeg">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-Headgear.jpeg" target="_blank">
+                    <img src="images/gallery-knock-Headgear-small.jpeg"
+                        alt="McHavelock's Wizarding Headgear hat from shop">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-tattoo.jpeg" target="_blank">
+                    <img src="images/gallery-knock-tattoo-small.jpeg" alt="Markus Scarr's Indelible Tattoos dark mark">
+                </a>
+            </div>
+
+            <div class="gallery-shop">
+                <a href="images/gallery-knock-Cobb-Webb.png" target="_blank">
+                    <img src="images/gallery-knock-Cobb-Webb-small.png" alt="Cobb & Webb's magical enchanted relic">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--6. Pricing-->
+    <section id="pricing">
+        <h2>
+            <span class="diagon-style">Wizarding Deals</span>
+            <span class="knockturn-style">Forbidden Wares</span>
+        </h2>
+
+        <!-- container of pricing cards for diagon -->
+        <div class="pricing-content diagon-style">
+            <div class="price-options">
+                <img src="images/price-books.png" alt="books from quality quidditch starter kit for hogwarts">
+                <div class="price-text">
+                    <h3>Flourish and Blotts Book Set</h3>
+                    <p>A complete school term bundle featuring spellbooks, potions guides, and even a few extra reads
+                        for curious minds.</p>
+                    <p class="price-btn">Price: 35 Galleons</p>
+                </div>
+            </div>
+
+            <div class="price-options  price-reverse">
+                <img src="images/price-quiditch.jpeg" alt="Quality quidditch equipment special sale">
+                <div class="price-text">
+                    <h3>Quality Quidditch Starter Kit</h3>
+                    <p>Everything a young flyer needs: a practice broom, safety gloves, and a lightweight Quaffle for
+                        training days. Ideal for first-time players.</p>
+                    <p class="price-btn">Price: 45 Galleons</p>
+                </div>
+            </div>
+
+            <div class="price-options">
+                <img src="images/price-Robes.jpeg" alt="madam malkins school robes for hogwarts school">
+                <div class="price-text">
+                    <h3>Madam Malkin's School Robes</h3>
+                    <p>Soft, tailored robes enchanted with self-repair stitching and stain-resistant charms, perfect for
+                        busy Hogwarts students.</p>
+                    <p class="price-btn">Price: 50 Galleons</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- container of pricing cards for knockturn -->
+        <div class="pricing-content knockturn-style">
+            <div class="price-options">
+                <img src="images/price-knock-diary.png" alt="tom riddles diary">
+                <div class="price-text">
+                    <h3>Tom Riddle's Diary</h3>
+                    <p>An unassuming black journal said to whisper back to its writer. Perfect for those who prefer
+                        their secrets to listen.</p>
+                    <p class="price-btn">Price: 35 Galleons</p>
+                </div>
+            </div>
+
+            <div class="price-options price-reverse">
+                <img src="images/price-knock-mirror.png" alt="replica of the erised mirror">
+                <div class="price-text">
+                    <h3>Mirror of Erised Replica</h3>
+                    <p>A smaller version of the legendary mirror, enchanted to reveal one's deepest desire, though not
+                        all reflections are kind.</p>
+                    <p class="price-btn">Price: 55 Galleons</p>
+                </div>
+
+            </div>
+            <div class="price-options">
+                <img src="images/price-knock-Triwizard-Cup.png" alt="triwizard cup original">
+                <div class="price-text">
+                    <h3>Triwizard Cup</h3>
+                    <p>A dazzling silver goblet from the legendary tournament prize. Said to hum faintly with leftover
+                        enchantments, though hopefully not Portkeys this time.</p>
+                    <p class="price-btn">Price: 40 Galleons</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--7. Contact-->
+    <section id="contact">
+        <h2>
+            <span class="diagon-style">Owl Posts</span>
+            <span class="knockturn-style">Whisper a Secret</span>
+        </h2>
+        <!-- flying mascot (owl) for diagon and a fairy for knock -->
+        <div class="flying-mascot diagon-style"></div>
+        <div class="flying-mascot knockturn-style"></div>
+
+        <!-- container of contact form for diagon -->
+        <div class="container diagon-style">
+            <form class="get-order" action="" method="post">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <input type="email" id="email-address" name="email-address" placeholder="StudentUser@hogwarts.com"
+                    required>
+                <textarea id="contact-message" class="contact-message" name="contact-message" rows="3" cols="60"
+                    placeholder="Your message"></textarea>
+
+                <!-- "submit contact" button -->
+                <button class="button-1">Submit</button>
+            </form>
+        </div>
+        <!-- container of contact form for knockturn -->
+        <div class="container knockturn-style">
+            <form class="get-order" action="" method="post">
+                <input type="text" id="name-knock" name="name-knock" placeholder="Your Name" required>
+
+                <input type="email" id="email-address-knock" name="email-address-knock"
+                    placeholder="YourShadowMerchant@knockturn.com" required>
+                <textarea id="contact-message-knock" class="contact-message-knock" name="contact-message-knock" rows="3"
+                    cols="60" placeholder="Your message"></textarea>
+
+                <!-- "submit contact" button -->
+                <button class="button-1-knock">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!--5. Footer – show the copyright -->
+    <footer>
+        <!-- container of contact form for diagon -->
+        <div class="container diagon-style">
+            <p>Copyright &copy; 2025 - Diagon Alley. Est. 1500s. All magical rights reserved</p>
+        </div>
+        <!-- container of contact form for knockturn -->
+        <div class="container knockturn-style">
+            <p>Copyright &copy; 2025 - Knockturn Alley. Est. 1500s. All cursed rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- continuation of buttons for mode change -->
+    <div id="list-modes">
+        <label class="theme-label" for="light-mode"><img src="images/theme-day-off.png" alt="theme light mode"></label>
+        <label class="theme-label" for="dark-mode"><img src="images/theme-night-off.png" alt="theme dark mode"></label>
+        <label class="theme-label" for="electric-mode"><img src="images/theme-knockturn-off.png"
+                alt="electric dark mode"></label>
+        <!-- <label class="theme-label" for="knockturn-mode"><img src="images/theme-knockturn-off.png"alt="theme knockturn-alley"></label> -->
+    </div>
+
+</body>
+
+</html>
