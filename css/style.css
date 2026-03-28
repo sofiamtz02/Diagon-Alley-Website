@@ -1,0 +1,1530 @@
+/* colors */
+:root {
+    --powder-white: #EDEAE0;
+}
+
+/*trial 5*/
+:root:has(#light-mode:checked) {
+    /* ==== BACKGROUNDS ==== */
+    --bg-body: #F5EDE1;
+    --bg-header: #e0dbd2;
+    /*3 side brown*/
+    --bg-about: linear-gradient(217deg, rgb(95 45 45 / 63%), transparent 70.71%), linear-gradient(127deg, #cdb38a, #31303000 70.71%), linear-gradient(336deg, #b078374f, transparent 70.71%);
+    /*brown gallery*/
+    --bg-gallery: linear-gradient(180deg, rgb(108 68 34 / 25%), rgb(98 53 53 / 34%));
+    --bg-footer: #3E566B;
+
+    /* ====== TEXT ====== */
+    --text-parag: #3B2A20;
+    --bp-pricing: #4E3A2F;
+    --heading: #2F3E4E;
+
+    /* ======= HEADER ====== */
+    --hd-header: #2F3E4E;
+    --text-header-nav: #2E1D13;
+    --hd-contact: #C88B45;
+    --hd-decor-bar: #3E566B;
+    --bp-a-header: rgb(80, 25, 25);
+
+    /* ==== hero ==== */
+    --bg-btn-hero: #ffffff;
+    --bp-btn-hero: black;
+
+    /*====pricing====*/
+    --bg-hover-price: #9cafc1a3;
+    --bp-hover-price: #5e3507;
+    --btn-bg-price: #f8d83191;
+
+    /* ====== BOX CONTAINERS ====== */
+    --bg-price: #F0E5D6;
+    --border-price: #3E566B;
+
+    --bg-shops: #F6E3C7;
+    --border-shops: #B87432;
+    --bp-shops: #3B2A20;
+
+    --bg-contact: rgba(187, 136, 82, 0.15);
+    --border-contact: #B87432;
+    --btn-contact: #3E566B;
+    --btn-bg-contact: #C88B45;
+    --btn-bp-contact: #FAF8F3;
+
+    --btn-bg-hover-contact: #3E566B;
+    --btn-shw-hover-contact: rgba(0, 0, 0, 0.25);
+    --btn-bp-hover-contact: #F5EDE1;
+
+    /* ====== SHADOWS ======= */
+    --shw-hero: rgba(0, 0, 0, 0.4);
+    --bk-shadow-main: rgba(62, 86, 107, 0.25);
+    --shw-nav: rgba(184, 116, 50, 0.2);
+    --bp-shadow: rgba(245, 225, 190, 0.8);
+    --h2-shadow: rgba(239, 239, 239, 0.692);
+    --shw-knock-img-btn: rgba(0, 0, 0, 0.5);
+}
+
+:root:has(#dark-mode:checked) {
+    /* ==== backgrounds ==== */
+    --bg-body: #25272c;
+    --bg-header: #1f1b2e;
+    --bg-about: linear-gradient(160deg, #3d2e67 0%, #35505e 50%, #2c4a36 100%);
+    --bg-gallery: linear-gradient(180deg, #563666c2, #232d47b8);
+    --bg-footer: #2a1f3d;
+
+    /* ====== TEXT ====== */
+    --text-parag: #f1e8dc;
+    --bp-pricing: #e8d4b7;
+    --heading: #FFD48A;
+
+    /* ======= HEADER ====== */
+    --hd-header: #b89bff;
+    --text-header-nav: #f5f5f5;
+    --hd-contact: #ffb366;
+    --hd-decor-bar: #345B6C;
+    --bp-a-header: #65c9da;
+
+    /*==== hero ==== */
+    --bg-btn-hero: #b5aada;
+    --bp-btn-hero: #14002e;
+
+    /*====pricing====*/
+    --bg-hover-price: #5594cf54;
+    --bp-hover-price: #5e3507;
+    --btn-bg-price: #0b7c828a;
+
+
+    /* ====== box containers ====== */
+    --bg-price: #27303d;
+    --border-price: #4d5c73;
+
+    --bg-shops: #5c4632;
+    --border-shops: #ad723d;
+    --bp-shops: white;
+
+    --bg-contact: #3e2d1f;
+    --border-contact: #ad6d3c;
+    --btn-contact: #ff934f;
+    --btn-bg-contact: #ffaf41;
+    --btn-bp-contact: #FFF8EC;
+
+    --btn-bg-hover-contact: #FFB75E;
+    --btn-shw-hover-contact: rgba(255, 183, 0, 0.4);
+    --btn-bp-hover-contact: #000;
+
+    /* ====== shadows ======= */
+    --shw-hero: rgba(0, 0, 0, 0.6);
+    --bk-shadow-main: rgba(255, 255, 255, 0.1);
+    /*white*/
+    --shw-nav: rgba(255, 255, 255, 0.05);
+    --bp-shadow: rgba(255, 255, 255, 0.12);
+    --shw-knock-img-btn: rgba(0, 0, 0, 0.5);
+}
+
+:root:has(#electric-mode:checked) {
+    /* ==== BACKGROUNDS ==== */
+    --bg-body: #0a0326;
+    --bg-header: #210355;
+    --bg-about: linear-gradient(160deg, #b815cd 0%, #f62a7e 45%, #8de41d 100%);
+    --bg-gallery: linear-gradient(180deg, rgba(184, 21, 205, 0.7), rgba(10, 3, 38, 0.9));
+    --bg-footer: #12023a;
+
+    /* ====== TEXT ====== */
+    --text-parag: #fdf5ff;
+    --bp-pricing: #f62a7e;
+    --heading: #8de41d;
+
+    /* ======= HEADER ====== */
+    --hd-header: #f62a7e;
+    --text-header-nav: #8de41d;
+    --hd-contact: #b815cd;
+    --hd-decor-bar: #8de41d;
+    --bp-a-header: #8de41d;
+
+    /* ===== HERO ===== */
+    --bg-btn-hero: #b815cd;
+    --bp-btn-hero: #fdf5ff;
+
+    /* ==== PRICING ==== */
+    --bg-hover-price: rgba(141, 228, 29, 0.25);
+    --btn-bg-price: rgba(246, 42, 126, 0.25);
+    --bp-hover-price: #9bcc5c47;
+
+    /* ===== BOX CONTAINERS ===== */
+    --bg-price: #210355;
+    --border-price: #f62a7e;
+
+    --bg-shops: #140239;
+    --border-shops: #8de41d;
+    --bp-shops: #fdf5ff;
+
+    --bg-contact: #1b0344;
+    --border-contact: #8de41d;
+    --btn-contact: #f62a7e;
+    --btn-bg-contact: #b815cd;
+    --btn-bp-contact: #ffffff;
+
+    --btn-bg-hover-contact: #8de41d;
+    --btn-shw-hover-contact: rgba(141, 228, 29, 0.4);
+    --btn-bp-hover-contact: #0a0326;
+
+    /* ====== SHADOWS ====== */
+    --shw-hero: rgba(246, 42, 126, 0.349);
+    --bk-shadow-main: rgba(141, 228, 29, 0.25);
+    --shw-nav: rgba(184, 21, 205, 0.25);
+    --bp-shadow: rgba(255, 255, 255, 0.1);
+    --shw-knock-img-btn: rgba(0, 0, 0, 0.5);
+
+}
+
+:root:has(#knockturn-mode:checked) {
+    /* ==== BACKGROUNDS ==== */
+    --bg-body: #1a1a1a;
+    --bg-header: #220e14;
+    --bg-about: linear-gradient(160deg, #2f1a1f 0%, #253822 50%, #1f2a1f 100%);
+    --bg-gallery: linear-gradient(180deg, #3a5a2f80, #34857b60);
+    --bg-footer: #1b0f12;
+
+    /* ====== TEXT ====== */
+    --text-parag: #d8e8d2;
+    --bp-pricing: #a1d77a;
+    --heading: #ff4b4b;
+
+    /* ======= HEADER ====== */
+    --hd-header: #ff4b4b;
+    --text-header-nav: #a1d77a;
+    --hd-contact: #62ff7a;
+    --hd-decor-bar: #8acc5b;
+    --bp-a-header: #62ff7a;
+
+    /* ==== HERO ===== */
+    --bg-btn-hero: #4b1f1f;
+    --bp-btn-hero: #d8e8d2;
+
+    /*==== PRICING ====*/
+    --bg-hover-price: rgba(97, 255, 122, 0.2);
+    --btn-bg-price: rgba(255, 75, 75, 0.2);
+    --bp-hover-price: #62ff7a;
+
+    /* ====== BOX CONTAINERS ===== */
+    --bg-price: #1f2a1f;
+    --border-price: #62ff7a;
+
+    --bg-shops: #325c37;
+    --border-shops: #4d8a56;
+    --bp-shops: #d8e8d2;
+
+    --bg-contact: #2a1f1f;
+    --border-contact: #62ff7a;
+    --btn-contact: #ff4b4b;
+    --btn-bg-contact: #1f2f22;
+    --btn-bp-contact: #d8e8d2;
+
+    --btn-bg-hover-contact: #62ff7a;
+    --btn-shw-hover-contact: #61ff7a66;
+    --btn-bp-hover-contact: #1a1a1a;
+
+    /* ====== SHADOWS ======= */
+    --shw-hero: rgba(0, 255, 128, 0.25);
+    --bk-shadow-main: rgba(255, 75, 75, 0.2);
+    --shw-nav: rgba(62, 255, 100, 0.2);
+    --bp-shadow: rgba(255, 255, 255, 0.05);
+    --h2-shadow: rgba(239, 239, 239, 0.31);
+
+    --shw-knock-img-btn: rgba(0, 255, 81, 0.6);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /*prevent the overflow of the right side of the screen*/
+    overflow-x: hidden;
+}
+
+/*sections padding*/
+#about,
+#shops,
+#gallery,
+#pricing,
+#contact {
+    padding: 60px 20px;
+    /*for scrolling to not go on top*/
+    scroll-margin-top: 90px;
+}
+
+p {
+    color: var(--text-parag);
+    line-height: 1.5;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-body);
+    /*padding for video to not overflow navbar*/
+    padding-top: 93px;
+
+
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--heading);
+
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    padding-top: 55px;
+    text-shadow: 2px 2px 6px var(--h2-shadow);
+}
+
+
+/* default ul has padding and margin, this removes it */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* remove the bullets */
+}
+
+
+/* general container: style of page */
+.container {
+    display: flex;
+    /*format all children using flexbox */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/*================== 1. Header ==================| */
+header {
+    position: fixed;
+    background-color: var(--bg-header);
+
+    color: var(--hd-header);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+
+    /* position at top left for the header nav */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+header .navbar-menu {
+
+    width: 98%;
+    /*to make == not touch border */
+    display: flex;
+    /*The nav uses Flexbox to arrange the links horizontally*/
+    justify-content: space-between;
+    align-items: center;
+    /*verically centers the links*/
+    flex-direction: row;
+    /* === trying to make newspaper double lines. */
+    border: 3px double var(--hd-decor-bar);
+    border-width: 5px 0;
+    /* makes == border thicker */
+    padding: 3px 0;
+    margin: 15px;
+}
+
+/* styling Diagon Alley name --------|*/
+header .branding {
+    font-family: "Croissant One", serif;
+    margin: 5px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+/*nav menu */
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* remover decoration of links*/
+nav a {
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--bp-a-header);
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 5px;
+    /* L/R to separate menu items from border left*/
+}
+
+
+
+/* triggers nav links to change color when mouse hovers over element */
+nav a:hover {
+    color: var(--hd-header);
+    background-color: var(--shw-nav);
+    /*makes it look like transparent hover*/
+    border-radius: 6px;
+}
+
+/*branding takes back to home*/
+.branding a {
+    font-family: "Croissant One", serif;
+    text-decoration: none;
+    /*if not inherit, will make it same size as nav menu*/
+    font-size: inherit;
+    color: var(--hd-header);
+    text-transform: uppercase;
+}
+
+/*================== section 2. Hero Video styling ==================| */
+
+/*********** TODO ***************
+- fix the video and about section so that the video doesnt overflow when 
+it gets smaller for browser going down
+-fixed with height=100%
+*********************************/
+
+
+/* |------------- Video Section -------------| */
+#hero {
+    height: 100vh;
+    position: relative;
+}
+
+#hero .container {
+    height: 100%;
+    overflow: hidden;
+    /*if goes ourside block, it stays inside*/
+    background: var(--shw-hero);
+    /*shadow on background*/
+}
+
+.background-video {
+    object-fit: cover;
+    /* fills background without stretching */
+    z-index: -5;
+
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+
+    /* centering  */
+    top: 50%;
+    left: 50%;
+    /*goes back to top left point (0,0)*/
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+
+.video-content {
+    width: 99%;
+    /*must be absolute to work*/
+    position: absolute;
+    /*makes text and button on top of video*/
+    z-index: 1;
+    color: var(--powder-white);
+    font-size: 1.5rem;
+}
+
+/*welcome to diagon alley decoration*/
+#hero .video-content h1 {
+    margin-bottom: 20px;
+    color: var(--powder-white);
+}
+
+.video-content h1 span {
+    font-family: "Milonga", serif;
+    /*makes new line*/
+    display: block;
+    font-size: 5.5rem;
+    text-shadow: 5px 5px 3px black;
+}
+
+.video-content p {
+    margin: 0 15px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+/*hero button*/
+.video-content a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+
+.video-content a:hover {
+    background-color: var(--bg-btn-hero);
+    color: var(--bp-btn-hero);
+    border: 3px solid var(--btn-border-hero);
+}
+
+/*================== section 3: about ==================| */
+#about {
+    /********* TRIAL 2 for video section ************/
+    /* position: relative;
+    z-index: 1; */
+    /********* TRIAL 2 ************/
+
+    width: 100%;
+    align-items: center;
+
+    /*background with gradient*/
+    background: var(--bg-about);
+}
+
+#about .container {
+    flex-direction: row;
+    margin: 0px 10%;
+}
+
+/* ==== diagon sign ==== */
+.about-sign {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 25px;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* wooden post background*/
+    background-image: url(../images/sign-post.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-sign #theme-knock img {
+    filter: drop-shadow(5px 5px 10px var(--shw-knock-img-btn));
+    animation: bounce 3s infinite alternate;
+    /* 1s duration, infinite loop, alternates direction */
+    transition: all 0.3s ease;
+}
+
+/*knocturn alley sign animation and effects */
+#theme-knock img:hover {
+    transform: scale(1.1);
+    animation: none;
+    filter: drop-shadow(5px 5px 10px rgba(241, 79, 79, 0.688));
+}
+
+/* the bounce for the image will start at 0, move 10px up, then initial position again*/
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    /*goes 10 pixels up at 50% of recorrido*/
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*diagon ally sign directions*/
+.main-sign {
+    width: 300px;
+}
+
+.small-sign {
+    width: 85%;
+}
+
+/*about content text*/
+.about-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 40px;
+    /*transparent box background*/
+    background-color: #f7f7f72f;
+    /* transprent background */
+    border-radius: 60px;
+}
+
+.about-block h2 {
+    /* padding: 0; reset */
+    margin-bottom: 0px;
+}
+
+#about .about-content {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 15px;
+    max-width: 100%;
+}
+
+#about h1 {
+    align-items: baseline;
+}
+
+#about p {
+    margin: 20px 0;
+    text-shadow: 2px 2px 8px var(--bp-shadow);
+}
+
+
+
+/*|================== section 4: shops Styling ==================| */
+
+#shops {
+    width: 100%;
+}
+
+/*flex-wrap section of shop cards*/
+#shops .container-wrap {
+    margin: auto;
+    width: 100%;
+    max-width: 90%;
+}
+
+#shops h2 {
+    margin-bottom: 15px;
+}
+
+.shop-card {
+    width: 25%;
+
+    margin: 17px;
+    padding: 15px;
+
+    border-radius: 30px;
+    display: flex;
+    /*img+h+p are in a column*/
+    flex-direction: column;
+    text-align: center;
+    /*make them all same height*/
+    align-items: stretch;
+
+    /*trasnition for the hover effect*/
+    transition: 0.3s;
+    color: var(--bp-shops);
+}
+
+
+.shop-card img {
+    width: 100%;
+    height: 200px;
+    /*makes img contain within the 200px height*/
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.shop-card p {
+    padding: 10px 0;
+    /* color: var(--bp-shops); */
+}
+
+/*hover effect for shops cards */
+.shop-card:hover {
+    /* get bigger by 105%*/
+    transform: scale(1.05);
+    /*gives shadow to make card look lifted of page*/
+    box-shadow: 0 10px 15px var(--bk-shadow-main);
+    border: 5px solid var(--border-shops);
+    background-color: var(--bg-shops);
+}
+
+/*|================== section 5. gallery Styling ==================| */
+
+#gallery {
+    width: 100%;
+    background-image: var(--bg-gallery), url(../images/background-bright-squares.png);
+}
+
+/*flex-wrap section of gallery space*/
+#gallery .container-wrap {
+    margin: auto;
+    width: 100%;
+    max-width: 84%;
+}
+
+.gallery-shop {
+    width: 25%;
+    height: 25%;
+    margin: 1% 2%;
+}
+
+.gallery-shop img {
+    /*image fits their own container*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border-radius: 50px;
+    box-shadow: 0 4px 10px var(--bk-shadow-main);
+}
+
+/*================== section 6. Pricing Styling ==================| */
+
+#pricing {
+    width: 100%;
+}
+
+.pricing-content {
+    display: flex;
+    /*The nav uses Flexbox to arrange the links horizontally.*/
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch;
+    /*make them all same height*/
+    text-align: center;
+}
+
+.price-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+    width: 30%;
+
+    border-radius: 20px;
+    border: 5px inset var(--border-price);
+    background-color: var(--bg-price);
+
+    box-shadow: 0 10px 15px var(--bk-shadow-main);
+    transition: all 0.3s;
+}
+
+.price-options img {
+    height: 200px;
+    margin: 7px;
+}
+
+/*** text styling */
+.pricing-content p,
+.pricing-content h3 {
+    color: var(--bp-pricing);
+    padding: 7px;
+}
+
+.price-text {
+    padding: 10px 0;
+}
+
+/*text btn of price card*/
+.price-btn {
+    background-color: var(--btn-bg-price);
+    /* padding: 10px 25px; */
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--bp-pricing);
+}
+
+.price-options:hover {
+    /*moves 10px up*/
+    transform: translateY(-10px);
+    background-color: var(--bg-hover-price);
+    color: var(--bp-hover-price);
+}
+
+/*================== section 7. Contact Styling ==================| */
+
+#contact {
+    padding: 60px 20px;
+}
+
+#contact h2 {
+    color: var(--hd-contact);
+}
+
+/*the container box*/
+#contact .container {
+    margin: auto;
+    width: 50%;
+    padding: 36px 25px;
+
+    background-color: var(--bg-contact);
+    border-color: var(--border-contact);
+
+    border-radius: 25px;
+    border-width: 10px;
+    border-style: dashed;
+
+    transition: all 0.3s;
+}
+
+/* styling the elements of contact for diagon and knockturn*/
+#name,
+#email-address,
+#contact-message {
+    max-width: 80%;
+    min-width: 80%;
+    padding: 10px;
+}
+
+#name-knock,
+#email-address-knock,
+#contact-message-knock {
+    max-width: 80%;
+    min-width: 80%;
+    padding: 10px;
+}
+
+#contact-message {
+    max-height: 78px;
+    min-height: 78px;
+}
+
+#contact-message-knock {
+    max-height: 78px;
+    min-height: 78px;
+}
+
+/* form get order section*/
+.get-order {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+
+/*both modes, diagon and knockturn*/
+.button-1,
+.button-1-knock {
+    padding: 10px;
+    width: 84%;
+    background-color: var(--btn-bg-contact);
+    color: var(--btn-bp-contact);
+    transition: 0.3s;
+    /* round the corners*/
+    border-radius: 15px;
+}
+
+.button-1:hover,
+.button-1-knock:hover {
+    background-color: var(--btn-bg-hover-contact);
+    box-shadow: 0 10px 15px var(--btn-shw-hover-contact);
+    color: var(--btn-bp-hover-contact);
+}
+
+/*overriding from top*/
+#contact {
+    position: relative;
+    /*NOTE: its visible so that it still shows even if goes on top of section (on pricing)*/
+    overflow: visible;
+}
+
+/* flying mascot acroos the screen*/
+.flying-mascot {
+    /*absolute so it doesnt ocuppy space in layout (overlayor on top)*/
+    position: absolute;
+    z-index: 50;
+    /*for mascot to be on top*/
+    top: -10px;
+    left: -5vw;
+
+    width: 125px;
+    height: 125px;
+
+    background: url('../images/contact-owl.png') no-repeat center / contain;
+
+    /*make animation show*/
+    animation: travel-flight 8s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+    /* 8S(duration of cycle, cubic makes owl speed up and slow (acceleration-deceleration)
+    cubic controls timing -> cubic-bezier(x1, y1, x2, y2)
+    */
+}
+
+/* Add content with CSS */
+
+@keyframes travel-flight {
+    /*
+    100/10 = 10 + 0. 
+    x-axis, 0 -100 vw
+    y-axis: 0-> -20up-> -30up-> -25down-> 0down -> 25down -> 30down -> 25up -> 0up-> 15up -> 0*/
+
+    0% {
+        transform: translateX(0vw) translateY(0px) rotate(0deg);
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateX(10vw) translateY(-20px) rotate(10deg);
+        opacity: 1;
+    }
+
+    /*tallest height*/
+    20% {
+        transform: translateX(20vw) translateY(-30px) rotate(15deg);
+    }
+
+    30% {
+        transform: translateX(30vw) translateY(-25px) rotate(10deg);
+    }
+
+    /*original y-axis position, o deg*/
+    40% {
+        transform: translateX(40vw) translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(50vw) translateY(25px) rotate(-10deg);
+    }
+
+    /*lowest height*/
+    60% {
+        transform: translateX(60vw) translateY(30px) rotate(-15deg);
+    }
+
+    70% {
+        transform: translateX(70vw) translateY(25px) rotate(-10deg);
+    }
+
+    /*initial position for y-axis*/
+    80% {
+        transform: translateX(80vw) translateY(0px) rotate(0deg);
+    }
+
+    /*goes up*/
+    90% {
+        transform: translateX(90vw) translateY(-15px) rotate(8deg);
+    }
+
+    /*initial position for y-axis*/
+    100% {
+        transform: translateX(150vw) translateY(0px) rotate(0deg);
+    }
+
+    /*goes back to intial position in y-axis and 0 deg*/
+}
+
+/* changing to cat for knocturn mode*/
+body:has(#knockturn-mode:checked) .flying-mascot.knockturn-style {
+    background-image: url('../images/contact-cat.png');
+    filter: drop-shadow(0 0 15px rgb(195, 51, 51));
+}
+
+/*================== section 8. Footer Styling ==================| */
+footer {
+    padding: 20px;
+    /*to give height to the footer*/
+    margin-top: 20px;
+    color: var(--powder-white);
+    background-color: var(--bg-footer);
+    /*pink background*/
+}
+
+footer p {
+    color: var(--powder-white);
+}
+
+/*================== light and dark mode BUTTONS ==================| */
+
+/*three themed buttons position in the screen*/
+#list-modes {
+    /*sticks them to botton corner*/
+    position: fixed;
+    /*give spacing from the borders*/
+    bottom: 15px;
+    left: 15px;
+    z-index: 999;
+    /*for displays images horizontally*/
+    display: flex;
+    /*make column for phone*/
+    flex-direction: row;
+    gap: 10px;
+}
+
+/* =================== color modes =================== */
+/*hides radio button */
+input[name="theme-mode"] {
+    display: none;
+}
+
+/* blue background of the buttons labels */
+#list-modes label {
+    width: 90px;
+    height: 90px;
+
+    /*center images*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    background-color: #748CAB;
+
+    cursor: pointer;
+    /*transition between colors of buttons chosen*/
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 2px 2px 4px transparent;
+}
+
+/* theme images (icon) inside circle label*/
+#list-modes img {
+    width: 50px;
+    margin: 10px;
+}
+
+/*theme for knocturn alley button, floating in about section*/
+#theme-knock label {
+    width: 100%;
+    height: 100%;
+
+    /*center images*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+    /*make cursor point so looks clickable*/
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 2px 2px 4px transparent;
+}
+
+
+/*-----------------THEME style Radio button------------*/
+
+/*for light, dark, electric mode. changes background color and color of shadow when selected*/
+#light-mode:checked~#list-modes label[for="light-mode"] {
+    background-color: #3b577c;
+    box-shadow: 0 10px 15px rgba(240, 199, 94, 0.5);
+}
+
+#dark-mode:checked~#list-modes label[for="dark-mode"] {
+    background-color: #3b577c;
+    box-shadow: 0 10px 15px rgba(157, 0, 255, 0.528);
+}
+
+#electric-mode:checked~#list-modes label[for="electric-mode"] {
+    background-color: #3b577c;
+    box-shadow: 0 10px 15px rgba(0, 255, 81, 0.6);
+}
+
+/*******************
+KNOCTURN SHADOW == used root variable color to change it
+********************/
+
+/*-----------------THEME style Image button------------*/
+
+/*change image style = if checked, swap the image to on */
+/* notes: ==only works when input radio and label img are inmediate next siblings ==#light-mode:checked ~ label img { */
+
+#light-mode:checked~#list-modes label[for="light-mode"] img {
+    content: url('../images/theme-day-on.png');
+    /*make image look bigger if selected*/
+    width: 70px;
+}
+
+#dark-mode:checked~#list-modes label[for="dark-mode"] img {
+    content: url('../images/theme-night-on.png');
+    width: 70px;
+}
+
+#electric-mode:checked~#list-modes label[for="electric-mode"] img {
+    content: url('../images/theme-knockturn-on.png');
+    width: 70px;
+}
+
+/*******TO DO *********
+KNOCTURN = if time, edit img to have blood
+********************/
+
+/*-----------------THEME style Selected button------------*/
+#list-modes label:hover {
+    /*scales button up*/
+    transform: scale(1.1);
+}
+
+/*knocturn alley hover for floating image */
+#theme-knock img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 10px rgba(241, 79, 79, 0.688));
+}
+
+
+/*============================== KNOCKTURN Mode Styling =============================*/
+
+
+body:has(#knockturn-mode:checked) {
+    /* background-image: url("../images/glitter-black.gif"); */
+    /*repeats until body height*/
+    /* background-repeat: repeat; */
+    color: white;
+}
+
+/****************** FLYING MASCOT *******************/
+body:has(#knockturn-mode:checked) .knockturn-style .flying-mascot {
+    /*no-repeat center/ contains -> centers the image and scales it to fit the div*/
+    background: url('../images/contact-cat.png') no-repeat center / contain;
+    filter: drop-shadow(0 0 15px rgb(195, 51, 51));
+}
+
+
+/* ============ SWITCHING CONTENT (DIAGON VS KNOCK)  ============ */
+
+
+body:has(#knockturn-mode:checked) .knockturn-style {
+    /*only have knockturn on*/
+    display: flex;
+}
+
+/* ============ THEME CONTENT SWITCHING ============ */
+
+/* Default state for diagon visible and Knockturn hidden */
+.diagon-style {
+    display: flex;
+}
+
+.knockturn-style {
+    display: none;
+}
+
+/* Knockturn mode: swap them */
+/*********** show knocturn content only when in kncoturn mode ************/
+body:has(#knockturn-mode:checked) .diagon-style {
+    /*turn of diagon style*/
+    display: none;
+}
+
+body:has(#knockturn-mode:checked) .knockturn-style {
+    /*only have knockturn on*/
+    display: flex;
+}
+
+/********* keep h2 styling /**********/
+/* Show/hide h2 spans */
+
+/* show diagon, hide knock*/
+h2 .diagon-style {
+    display: inline;
+}
+
+h2 .knockturn-style {
+    display: none;
+}
+
+/*** hide diagon, show knock*/
+body:has(#knockturn-mode:checked) h2 .diagon-style {
+    display: none;
+}
+
+body:has(#knockturn-mode:checked) h2 .knockturn-style {
+    display: inline;
+}
+
+
+/* deleted: this makes spans inside h2 inherit all the styling */
+/* ******** Show/hide h2 spans ************ */
+body:has(#knockturn-mode:checked) h2 .diagon-style {
+    display: none;
+}
+
+body:has(#knockturn-mode:checked) h2 .knockturn-style {
+    display: inline-flex;
+}
+
+/********* keep about styling /**********/
+#about .about-content.diagon-style {
+    display: inline;
+}
+
+#about .about-content.knockturn-style {
+    display: none;
+}
+
+/*** hide diagon, show knock*/
+body:has(#knockturn-mode:checked) #about .about-content.diagon-style {
+    display: none;
+}
+
+body:has(#knockturn-mode:checked) #about .about-content.knockturn-style {
+    display: inline;
+}
+
+
+/*================== sizing Styling ==================| */
+/* desktop (1920 x 1080) */
+
+/* tablet: 768 x 1024 */
+/* Styles applied when the screen width is 393px or less */
+@media screen and (max-width: 820px) {
+
+    /*for menu bar to show for all ipad screen*/
+    header nav {
+        width: 100%;
+    }
+
+    /* 2. about container*/
+    #about .container {
+        margin: auto;
+        /*reset margin from laptop parent */
+    }
+
+    #about .about-content {
+        max-width: 96%;
+    }
+
+    /*section 3. shops*/
+    .shop-card {
+        width: 39%;
+        margin: 17px;
+        padding: 13px;
+    }
+
+    .shop-card img {
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+        /*makes img contain within the 200px height*/
+        margin-bottom: 15px;
+    }
+
+    /*section 4. gallery*/
+    .gallery-shop {
+        width: 40%;
+        height: 40%;
+        margin: 17px 21px;
+    }
+
+    /*section 5. pricing*/
+
+    .pricing-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*card box*/
+    .price-options {
+        flex-direction: row;
+        width: 90%;
+        margin-bottom: 33px;
+    }
+
+    .price-options img {
+        height: 170px;
+        margin: 0 4px;
+    }
+
+    .price-text {
+        padding: 10px;
+    }
+
+    .price-reverse {
+        flex-direction: row-reverse;
+    }
+
+
+    /*contct us*/
+    #contact {
+        padding: 10px;
+        margin-bottom: 76px;
+    }
+
+    #contact .container {
+        width: 85%;
+        max-width: 90%;
+        min-width: 50%;
+    }
+
+    #name,
+    #email-address,
+    #contact-message {
+        max-width: 95%;
+        min-width: 95%;
+    }
+
+    #name-knock,
+    #email-address-knock,
+    #contact-message-knock {
+        max-width: 95%;
+        min-width: 95%;
+    }
+
+    .button-1,
+    .button-1-knock {
+        padding: 10px;
+        width: 95%;
+    }
+
+    .flying-mascot {
+        top: -48px;
+    }
+
+}
+
+
+/*iphone 15 : 393px × 852px */
+/* Styles applied when the screen width is 393px or less */
+@media screen and (max-width: 540px) {
+
+    /*navigation bar*/
+    header .navbar-menu {
+        flex-direction: column;
+    }
+
+    /*section 2. about */
+    #about .container {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .about-block {
+        width: 100%;
+    }
+
+    #about .about-content {
+        max-width: 100%;
+    }
+
+    /*section3. shops*/
+    #shops {
+        padding: 40px 0;
+        width: 100%;
+    }
+
+    #shops .container-wrap {
+        align-items: center;
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .shop-card {
+        width: 90%;
+        padding: 20px 13px;
+    }
+
+    /*section 4. gallery*/
+
+    /*picture sizes*/
+    #gallery .container-wrap {
+        max-width: 100%;
+    }
+
+    .gallery-shop {
+        width: 100%;
+        /* width: 300px; */
+        height: 200px;
+    }
+
+
+    /*section 5. pricing*/
+    #pricing .container {
+        flex-direction: column;
+    }
+
+    .pricing-content {
+        flex-direction: column;
+    }
+
+    .price-options {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .price-text {
+        padding: 10px 0;
+    }
+
+    /* section 6. contct us*/
+    #contact {
+        padding: 0;
+    }
+
+    #contact .container {
+        width: 98%;
+    }
+
+    #name,
+    #email-address,
+    #contact-message {
+        max-width: 95%;
+        min-width: 95%;
+    }
+
+    #name-knock,
+    #email-address-knock,
+    #contact-message-knock {
+        max-width: 95%;
+        min-width: 95%;
+    }
+
+    .button-1,
+    .button-1-knock {
+        padding: 10px;
+        width: 98%;
+    }
+
+    .flying-mascot {
+        top: -67px;
+    }
+
+}
+
+
+/* |--------------- styles the navbar for mobile visitors from class---------------| */
+
+/* reset the header container so that our mobile menu can go full width */
+header .container {
+    width: 100%;
+}
+
+header .container .branding {
+    width: 80%;
+}
+
+/* mobile menu needs to go full width, and be aligned center */
+nav {
+    text-align: center;
+    line-height: 48px;
+    width: 100%;
+}
+
+/* menu should be hidden on mobile */
+header nav ul {
+    display: none;
+}
+
+/* make the mobile menu have a bottom border (as they will be arranged vertically) */
+nav ul a {
+    display: block;
+    border-top: 1px solid #EAEAEB;
+    margin: 0;
+}
+
+/* hide the checkbox element that stores the state of the menu */
+#toggle {
+    display: none;
+}
+
+#toggle-knock {
+    display: none;
+}
+
+/* if the toggle checkbox is checked, show the menu (ul) */
+#toggle:checked~ul {
+    display: block;
+}
+
+#toggle-knock:checked~ul {
+    display: block;
+}
+
+/* override the padding that was applied in Lab 06 */
+header li {
+    padding: 0px;
+}
+
+/* suck up the bottom of the <header> by 15px, so it looks like the menu doesn't have extra margin */
+header nav ul {
+    margin-bottom: -15px;
+}
+
+/* style the hamburger element */
+nav label {
+    font-size: 26px;
+}
+
+/* set the styles for the non-mobile menu */
+@media only screen and (min-width: 768px) {
+
+    /* make the nav block size automatically rather than 100% */
+    nav {
+        width: auto;
+    }
+
+    nav label {
+        display: none;
+    }
+
+    /* snug the nav bar up to the right edge */
+    header nav {
+        margin-right: 0px;
+    }
+
+    /* make the menu horizontal again */
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* undo the mobile menu styling */
+    nav ul a {
+        border-top: 0px;
+        margin: 0;
+        padding: 0 10px;
+        /* need to have only a bit of padding for small tablets in portrait mode */
+    }
+
+    header nav ul {
+        margin-bottom: 0px;
+    }
+
+    /* expand out the header to almost full width */
+    header .container {
+        width: 100%;
+    }
+
+    header .container .branding {
+        width: auto;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    /* add some more padding for links on large tablets/desktop */
+    nav ul a {
+        padding: 0 20px;
+    }
+
+    /* restore the header container width */
+    header .container {
+        width: 100%;
+    }
+}
+
+
+/*color transition between modes*/
+*,
+*::after,
+*::before {
+    transition:
+        background-color 0.5s ease,
+        color 0.4s ease,
+        box-shadow 0.4s ease,
+        border-color 0.4s ease-in-out,
+        transform 0.4s ease;
+}
